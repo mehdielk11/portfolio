@@ -244,17 +244,17 @@ article.active {
 
 .has-scrollbar::-webkit-scrollbar {
   width: 5px; /* for vertical scrollbar */
-  height: 5px; /* for horizontal scrollbar */
+  height: 20px; /* for horizontal scrollbar */
 }
 
 .has-scrollbar::-webkit-scrollbar-track {
   background: var(--onyx);
-  border-radius: 5px;
+  border-radius: 25px;
 }
 
 .has-scrollbar::-webkit-scrollbar-thumb {
   background: var(--orange-yellow-crayola);
-  border-radius: 5px;
+  border-radius: 25px;
 }
 
 .has-scrollbar::-webkit-scrollbar-button { width: 20px; }
@@ -742,7 +742,12 @@ main {
 }
 
 .clients-item img {
-  width: 70%;
+  width: 75%;
+  border-radius: 8px;
+}
+
+.clients-item p {
+  color: aliceblue;
 }
 
 
