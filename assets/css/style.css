@@ -1871,3 +1871,9 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+a {
+  color: rgb(186, 189, 52);
+  flex-direction: row;
+  text-decoration:none;
+}
