@@ -748,6 +748,7 @@ main {
 
 .clients-item p {
   color: aliceblue;
+  font-size: var(--fs-8);
 }
 
 
