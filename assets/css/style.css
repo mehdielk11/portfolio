@@ -463,7 +463,7 @@ main {
 
 .social-item .social-link {
   color: var(--light-gray-70);
-  font-size: 18px;
+  font-size: 25px;
 }
 
 .social-item .social-link:hover {
@@ -793,7 +793,7 @@ main {
 
 .clients-item img {
   width: 100%; /* Make the image responsive */
-  max-width: 150px; /* Limit the maximum width */
+  max-width: 200px; /* Limit the maximum width */
   margin: 0 auto;
   border-radius: 8px;
 }
@@ -1220,7 +1220,7 @@ main {
 }
 
 .form-title {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .input-wrapper {
@@ -1250,9 +1250,10 @@ main {
 
 textarea.form-input {
   min-height: 100px;
-  height: 120px;
+  height: 1000px;
   max-height: 200px;
   resize: vertical;
+  margin-top: 40px;
   margin-bottom: 25px;
 }
 
@@ -1600,7 +1601,7 @@ textarea.form-input::-webkit-resizer {
   /* clients */
 
   .clients-list {
-    gap: 50px;
+    gap: 40px;
     margin: 0 -30px;
     padding: 45px;
     scroll-padding-inline: 45px;
@@ -1608,6 +1609,10 @@ textarea.form-input::-webkit-resizer {
 
   .clients-item {
     min-width: calc(33.33% - 35px);
+  }
+
+  .clients-item p {
+    margin-top: 10px;
   }
 
   /**
@@ -1966,12 +1971,13 @@ textarea.form-input::-webkit-resizer {
 
   .sidebar {
     position: sticky;
-    top: 60px;
+    top: 50px;
     max-height: max-content;
     height: 100%;
     margin-bottom: 0;
-    padding-top: 60px;
+    padding-top: 50px;
     z-index: 1;
+    flex-shrink: 0;
   }
 
   .sidebar-info {
